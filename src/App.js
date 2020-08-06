@@ -9,6 +9,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    <div class="wrapper">
     <div className="Header--first">
     <h1 className="Header__Big"> Your product playbook right at your fingertips. </h1>
     <h2 className="Header__Small"> Let us help you cater to your consumer's demands by using our advanced recommendation system based on over <strong>50 million</strong> products.</h2>
@@ -17,6 +18,10 @@ function App() {
     <div className="Center_Image">
     <img className="Image--first" src="https://searchengineland.com/figz/wp-content/seloads/2015/10/graph-line-trend-analytics-magnifying-glass-ss-1920.jpg"></img>
     </div>
+    </div>
+    <section className="section__features">
+
+    </section>
     </>
   );
 }

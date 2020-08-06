@@ -1,5 +1,4 @@
 body {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -8,6 +7,11 @@ body {
   margin: 6rem auto;
   justify-content: center;
   text-align: center;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .Header__Big {
@@ -32,4 +36,10 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
+}
+
+.section__features {
+  height: 100vh;
+  background-color: #f8f8f8;
+  margin-top: 50rem;
 }
