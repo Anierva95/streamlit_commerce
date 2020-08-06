@@ -4,15 +4,32 @@ body {
 }
 
 .Header--first {
-  margin-top: 10rem;
   max-width: 800px;
-  margin: 10rem auto;
+  margin: 6rem auto;
   justify-content: center;
   text-align: center;
 }
 
-.Header__Button {
-  left: 0;
+.Header__Big {
+  font-size: 4rem;
 }
 
+.Header__Small {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
 
+.Header__Button {
+  left: 0;
+  width: 10rem;
+}
+
+.Image--first {
+  width: 750px;
+}
+
+.Center_Image {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
