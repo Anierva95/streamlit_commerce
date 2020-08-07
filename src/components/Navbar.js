@@ -34,7 +34,7 @@ export default function NavBar() {
           </Typography>
           <Button color="inherit">How it works</Button>
           <Button color="inherit">Pricing</Button>
-          <Button color="secondary">Demo</Button>
+          <Button variant="contained" color="secondary">Demo</Button>
         </Toolbar>
       </AppBar>
     </div>

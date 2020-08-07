@@ -41,5 +41,10 @@ body {
 .section__features {
   height: 100vh;
   background-color: #f8f8f8;
-  margin-top: 50rem;
+  margin-top: 40rem;
+}
+
+.Header__Big--2 {
+  font-size: 4rem;
+  padding-top: 10rem;
 }

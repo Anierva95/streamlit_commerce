@@ -20,7 +20,12 @@ function App() {
     </div>
     </div>
     <section className="section__features">
-
+      <div className="wrapper">
+      <div className="Header--first">
+    <h1 className="Header__Big--2">How it works</h1>
+    <h2></h2>
+    </div>
+    </div>
     </section>
     </>
   );
