@@ -27,15 +27,15 @@ function App() {
             <Grid container direction="row">
           <Grid item xs={3}>
           <h1>1.</h1>
-          <h3>Upload your data</h3>
+          <h3>Upload your csv.</h3>
           </Grid>
           <Grid item xs={3}>
           <h1>2.</h1>
-          <h3>Our model will get to work</h3>
+          <h3>Our model will make predictions based on your data.</h3>
           </Grid>
           <Grid item xs={3}>
           <h1>3.</h1>
-          <h3>Search trends by product</h3>
+          <h3>You gain access to your products trends.</h3>
           </Grid>
           </Grid>
             <h2></h2>
