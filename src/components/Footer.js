@@ -5,7 +5,7 @@ export default function Footer(props) {
     return(
     <div className="Footer">
         <div className="Footer__box">
-            <h1>Trendr by AiConsult</h1>
+            <h1 className="Footer__Head">Trendr by <strong>AiConsult</strong></h1>
         </div>
     </div>
     );
