@@ -30,7 +30,7 @@ export default function NavBar() {
             {/* <MenuIcon /> */}
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            StreamLit
+            Trendr by <strong>AiConsult</strong>
           </Typography>
           <Button color="inherit">How it works</Button>
           <Button color="inherit">Pricing</Button>

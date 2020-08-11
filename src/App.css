@@ -17,7 +17,7 @@ body {
 
 .CallToAction__Box {
   width: 50%;
-  height: 50%;
+  height: 60%;
   background: black;
   border-radius: 10px;
   position: absolute;
@@ -26,9 +26,18 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.CallToAction__Button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+}
+
 .CallToAction__Header {
   color: white;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .wrapper {
