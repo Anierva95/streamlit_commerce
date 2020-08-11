@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import CallToAction from './components/CallToAction';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <img className="Image--first" src="https://searchengineland.com/figz/wp-content/seloads/2015/10/graph-line-trend-analytics-magnifying-glass-ss-1920.jpg"></img>
         </div>
       </div>
-      <section className="section__features">
+      <section className="section__how">
         <div className="wrapper">
           <div className="Header--first">
             <h1 className="Header__Big--2">How does StreamLit work?</h1>
@@ -43,6 +44,8 @@ function App() {
         </div>
       </section>
       <CallToAction/>
+      <section className="section__features"></section>
+      <Footer/>
     </>
   );
 }
