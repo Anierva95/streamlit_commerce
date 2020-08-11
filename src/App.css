@@ -9,6 +9,28 @@ body {
   text-align: center;
 }
 
+.CallToAction {
+  height: 30vh;
+  background: blue;
+  position: relative;
+}
+
+.CallToAction__Box {
+  width: 50%;
+  height: 50%;
+  background: black;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CallToAction__Header {
+  color: white;
+  text-align: center;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;

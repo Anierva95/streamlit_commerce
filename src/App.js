@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
+import CallToAction from './components/CallToAction';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           </div>
         </div>
       </section>
+      <CallToAction/>
     </>
   );
 }
