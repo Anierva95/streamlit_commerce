@@ -25,7 +25,7 @@ function App() {
         <div className="wrapper">
           <div className="Header--first">
             <h1 className="Header__Big--2">How does StreamLit work?</h1>
-            <Grid container direction="row">
+          <Grid container direction="row">
           <Grid item xs={3}>
           <h1>1.</h1>
           <h3>Upload your csv.</h3>
