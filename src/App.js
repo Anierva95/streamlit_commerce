@@ -5,6 +5,7 @@ import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
+import LiveChat from 'react-livechat'
 
 
 function App() {
@@ -25,16 +26,16 @@ function App() {
         <div className="wrapper">
           <div className="Header--first">
             <h1 className="Header__Big--2">How does StreamLit work?</h1>
-          <Grid container direction="row">
-          <Grid item xs={3}>
+          <Grid container>
+          <Grid item xs={4}>
           <h1>1.</h1>
           <h3>Upload your csv.</h3>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={4}>
           <h1>2.</h1>
           <h3>Our model will make predictions based on your data.</h3>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={4}>
           <h1>3.</h1>
           <h3>You gain access to your products trends.</h3>
           </Grid>
@@ -45,6 +46,7 @@ function App() {
       </section>
       <CallToAction/>
       <section className="section__features"></section>
+      <LiveChat license={11844840}/>
       <Footer/>
     </>
   );

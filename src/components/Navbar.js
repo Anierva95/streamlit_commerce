@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(20),
   },
   title: {
     flexGrow: 1,
@@ -32,9 +32,11 @@ export default function NavBar() {
           <Typography variant="h6" className={classes.title}>
             Trendr by <strong>AiConsult</strong>
           </Typography>
-          <Button color="inherit">How it works</Button>
-          <Button color="inherit">Pricing</Button>
-          <Button variant="contained" color="secondary">Demo</Button>
+          <div>
+          <Button color="inherit" style={{ "marginRight": "3rem" }}>How it works</Button>
+          <Button color="inherit" style={{ "marginRight": "3rem" }}>Pricing</Button>
+          <Button variant="contained" color="secondary" style={{ "marginRight": "12rem" }}>Demo</Button>
+          </div>
         </Toolbar>
       </AppBar>
     </div>

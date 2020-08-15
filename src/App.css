@@ -55,6 +55,7 @@ body {
 
 .Header__Big {
   font-size: 4rem;
+  font-weight: 400;
 }
 
 .Header__Small {
